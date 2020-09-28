@@ -1,0 +1,119 @@
+body {
+  width: 1920;
+  background-color: #fffff;
+}
+
+header {
+  width: 1200px;
+  height: 60px;
+  padding: 60px 360px;
+  position: inherit;
+}
+.logo {
+  width: 184px;
+  height: 60px;
+}
+.logo-title {
+    width: 184px;
+    height: 35px;
+    font-family: Georgia;
+    font-style: normal;
+    font-size: 32px;
+    color: #F1CDB3;
+    padding: 0px;
+    text-align:center!important;
+}
+
+.logo-subtitle {
+width: 179px;
+height: 15px;
+font-family: Arial;
+font-style: normal;
+font-size: 13px;
+color: #ffffff;
+padding: 4px 45px 0px 0px;
+text-align:center!important;
+}
+/* Nav menu */
+.Nav-menu {
+  list-style: none;
+  display:inline-block;
+  width: 443px;
+  height: 27px;
+  top: 16px;
+  a {text-decoration: none;}
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.link_active-nav-menu-1 {
+display:inline-block;
+font: Arial 15 normal;
+color: rgba(205, 205, 205, 1);
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 114px;
+height: 27px;
+left: 757px;
+top: 16px;
+}
+.link_active-nav-menu-2 {
+display:inline-block;
+font: Arial 15 normal;
+color: rgba(205, 205, 205, 1);
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 58px;
+height: 24px;
+left: 906px;
+top: 16px;
+}
+.link_active-nav-menu-3 {
+font: Arial 15px normal;
+color: rgba(205, 205, 205, 1);
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 106px;
+height: 24px;
+left: 999px;
+top: 16px;
+}
+.link_active-nav-menu-4 {
+display:inline-block;
+font-style: Arial;
+font-size: 15px;
+color: #CDCDCD;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 60px;
+height: 24px;
+left: 1140px;
+top: 16px;
+}
+.background {
+  position: absolute;
+  width: 1920px;
+  height: 908px;
+  left: 0px;
+  top: 0px;
+  background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20
+}
+.main-screen {
+  position: absolute;
+  width: 1920px;
+  height: 908px;
+  left: 60%;
+  top: 10%;
+  background: no-repeat url(sobachka.png);
+}
